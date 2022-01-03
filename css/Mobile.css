@@ -1,0 +1,184 @@
+/*mobile menu*/
+
+.nav-item {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.nav-item a {
+  transition: all 0.2s ease;
+  color: black;
+  font-size: 0.8em;
+}
+.nav-item a:hover {
+  color: wheat;
+  border-bottom: 1px solid black;
+}
+.nav-item .open {
+  transform: translateX(0);
+}
+
+@media (max-width: 780px) {
+  .nav-css {
+    flex-direction: column;
+    padding: 9px;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    flex-direction: column;
+    border-left: none;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footer3 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    height: auto;
+    min-width: 100%;
+    display: flex;
+  }
+
+  .content {
+    display: flex;
+  }
+}
+
+/*text*/
+@media screen and (max-width: 983px) {
+  .font {
+    font-size: 1rem;
+  }
+}
+
+/*contact button*/
+
+@media screen and (max-width: 800px) {
+  form .submit {
+    text-align: left;
+  }
+}
+
+/* font and images */
+@media screen and (max-width: 950px) {
+  .font {
+    height: 925px;
+    display: block;
+  }
+
+  .font2 {
+    font-size: 1rem;
+    display: block;
+  }
+
+  /* images change */
+
+  .footer2 {
+    margin-top: 500px;
+    height: 50px;
+  }
+
+  .changedFont {
+    width: 100%;
+    height: auto;
+  }
+
+  /* slideshow */
+  .container-Slide {
+    width: 100%;
+    height: auto;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .main3 {
+    width: 350px;
+  }
+}
+
+@media (max-width: 950px) {
+  .map-image {
+    display: none;
+  }
+
+  .image_mobile {
+    display: block;
+  }
+
+  .imgside1 {
+    display: none;
+  }
+
+  .imgside2 {
+    display: none;
+  }
+
+  .Flower {
+    display: block;
+    width: 350px;
+  }
+
+  .Paper{
+    display: block;
+    width: 350px;
+  }
+
+  .Controller{
+    display: block;
+    width: 350px;
+  }
+
+  .HallamUni{
+    display: block;
+    width: 350px;
+  }
+
+  .hideimage {
+    display: none;
+  }
+
+  .main2 {
+    display: none;
+  }
+
+  .slideshow-hide {
+    display: none;
+  }
+
+  .boxed{
+    width: 200px;
+  }
+
+  iframe{
+   width: 340px;
+   height: 640px;
+  }
+}

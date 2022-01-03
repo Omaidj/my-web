@@ -1,0 +1,434 @@
+/*body design*/
+
+body{
+background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+overflow: auto;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+  display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*image and hover design part 1*/
+header {
+    background-image: url("../images/cantor-gallery.jpg") ;
+    padding-left: none;
+    width: auto;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+.main{
+    float:left;
+    padding: 0 15px 15px 0;
+    border-radius: 40px;
+}
+
+.main3{
+  float:left;
+  padding: 0 15px 15px 0;
+    border-radius: 40px;
+}
+
+.main2{
+  float:left;
+    padding: 0 15px 15px 0;
+    border-radius: 40px;
+}
+
+.imgside1{
+    display: flex;
+}
+
+.imgside2{
+    flex:33.33%;
+    padding:5px;
+}
+
+.hover{
+    padding: 0 15px 15px 0;
+    border-radius: 40px;
+}
+
+.image_mobile{
+  display: none;
+  border-radius: 40px;
+}
+
+.Flower{
+  display: none;
+}
+
+.Paper{
+  display: none;
+}
+
+.Controller{
+  display: none;
+}
+
+
+/*text design*/
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 27px;
+}
+
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+h5{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+    font-size: 23px;
+}
+
+body {
+    font-family: fantasy;
+    font-size: 1em;
+}
+
+.nav-item{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid black;
+}
+
+.list-item{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+.font{
+    font-family: monospace;
+    font-size: 1.6em;
+    height: 700px;
+}
+
+.font2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    display: block;
+}
+
+.font3{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+    height: 400px;
+}
+
+.changedFont{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+
+/*image and hover design part 2*/
+.figure{
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+}
+
+.figure img.hover{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.figure:hover img.hover{
+    opacity: 1;
+}
+
+/*text design part2*/
+.Text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: orangered;
+}
+
+#nav-item2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: blue;
+}
+/*this is the how to find us location*/
+.boxed{
+    border: 5px solid black;
+    padding: 20px;
+    width: 300px;
+    overflow: auto;
+    border-radius: 40px;
+}
+
+
+
+/*text design part 3*/
+#TextDes{
+   color: blue;
+}
+
+.center{
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*this is a table */
+table{
+    width: 100%;
+    max-width: 600px;
+    max-height: 300px;
+    
+}
+
+tr:nth-child(odd){
+    background-color: orange;
+}
+
+
+/*this is a footer*/
+footer{
+    clear: both;
+    position: relative;
+    height: 200px;
+    
+}
+
+
+
+.container {
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left:1px solid #000 ;
+}
+
+.logo {
+  font-size: 3rem;
+  border-radius: 40px;
+}
+.logo a {
+  transition: all 0.2s ease;
+  color: wheat;
+}
+.logo a:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+
+
+/*footer design*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  display: block;
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+/*footer styles*/
+
+.content{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.footer2{
+    position: relative;
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px;
+}
+
+.footer3{
+    position: relative;
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px;
+  display: none;
+}
+
+
+
+.footer ul {
+    position: fixed;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 50px;
+}
+.footer ul li a {
+  transition: all 0.2s ease;
+}
+.footer ul li a:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.footer ul p{
+    font-size: 0.4em;
+}
+
+
+
+/*Contact form*/
+
+.contact-title{
+  margin-top: 100px;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h2{
+  text-align: center;
+  font-size:32px;
+  line-height: 10px;
+}
+
+form{
+  margin-top: 5px;
+  margin-bottom: 310px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: black;
+  font-size: 19px ;
+   margin: 0 auto;
+  display: block;
+  width: 500px;
+}
+
+input{
+  height: 25px;
+}
+
+
+form .submit{
+background: #556270;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-color: transparent;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2px;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.submit:hover{
+  transform:scale(1.1);
+  cursor: pointer;
+  color: blueviolet;
+}
+
+/* this is a button */
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  display: flex;
+}
+.btn-primary {
+  transition: all 0.2s ease;
+  background-color: wheat;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+
